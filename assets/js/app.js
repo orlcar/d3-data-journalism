@@ -1,9 +1,3 @@
-In this project, D3 was used to create a scatterplot based on health risk data.
-
-## Javascript Code
-
-```javascript
-
 // Declare initial parameters for chosenXAxis and chosenYAxis
 var chosenXAxis = "poverty";
 var chosenYAxis = "healthcare";
@@ -465,11 +459,3 @@ responsiveChart();
 
 // Call responsiveChart() when the browser window is resized
 d3.select(window).on("resize", responsiveChart);
-
-```
-
-
-## D3 Chart Website
-
-![D3 Website Image](images/d3_image.png)
-
